@@ -1,8 +1,10 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const About = () => {
     return (
         <div>
+            <Navigation />
             <h1>A propos</h1>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
@@ -19,7 +21,15 @@ const About = () => {
                 excepturi! Ducimus, explicabo magni? Consectetur culpa vel omnis
                 velit nemo quod reiciendis ex ad?
             </p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet vel libero debitis quis autem repudiandae odio similique fugiat numquam dicta exercitationem, quas voluptate recusandae vitae impedit placeat quidem, atque odit? Quos, amet? Eos nisi recusandae, dolore facilis exercitationem pariatur consectetur rerum, voluptate nesciunt laudantium necessitatibus tempore unde quo quae inventore.</p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Eveniet vel libero debitis quis autem repudiandae odio similique
+                fugiat numquam dicta exercitationem, quas voluptate recusandae
+                vitae impedit placeat quidem, atque odit? Quos, amet? Eos nisi
+                recusandae, dolore facilis exercitationem pariatur consectetur
+                rerum, voluptate nesciunt laudantium necessitatibus tempore unde
+                quo quae inventore.
+            </p>
         </div>
     );
 };
