@@ -49,7 +49,7 @@ const Countries = () => {
                 ))}
 
                 {/* display number countries */}
-                <p>Affichage pays : {rangeValue}</p>
+                <p>Pays : {rangeValue}</p>
             </ul>
 
             {/* display annuler la recherche */}
