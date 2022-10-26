@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactflags/static/css/main.074751ae.css",
+    "main.js": "/reactflags/static/js/main.02492378.js",
+    "static/media/main.jpg": "/reactflags/static/media/main.516fbcd135926107480c.jpg",
+    "static/media/JosefinSans-Medium.ttf": "/reactflags/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
+    "index.html": "/reactflags/index.html",
+    "main.074751ae.css.map": "/reactflags/static/css/main.074751ae.css.map",
+    "main.02492378.js.map": "/reactflags/static/js/main.02492378.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.074751ae.css",
+    "static/js/main.02492378.js"
+  ]
+}
