@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Countries = () => {
-    const [data, setData] = useState ([]);
-    // video à 1 h 12 mn
+    const [data, setData] = useState([]);
+    // useEffect se joue lorsque le composant est monté
     useEffect(() => {
         axios
             .get("https://restcountries.com/v3.1/all")
