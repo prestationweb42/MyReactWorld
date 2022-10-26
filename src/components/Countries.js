@@ -41,14 +41,15 @@ const Countries = () => {
                         <input
                             type="radio"
                             id={continent}
-                            name="radioContinent"
+                            name="radioContinent" // link all radios
+                            checked={continent === selectedRadio} // Raz radio checked
                             onChange={(e) => setSelectedRadio(e.target.id)}
                         />
                     </li>
                 ))}
 
                 {/* display number countries */}
-                <p>Nombre de pays affichés : {rangeValue}</p>
+                <p>Affichage pays : {rangeValue}</p>
             </ul>
 
             {/* display annuler la recherche */}
